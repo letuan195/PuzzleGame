@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="play_button">Play</string>
+<string name="app_name">Puzzle</string>
+<string name="exit">Exit</string>
+<string name="moves">Moves: </string>
+    <string name="time">Time: 00:00</string>
+
+    <string name="start">Bắt đầu</string>
+    <string name="high_score">Điểm cao</string>
+    <string name="setting">Cài đặt</string>
+    <string name="infomation">Thông tin</string>
+</resources>

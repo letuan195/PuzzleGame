@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light">
+
+    <TextView
+        android:id="@+id/tvApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="32dp"
+        android:background="@android:color/holo_purple"
+        android:text="HIGHSCORE"
+        android:textSize="30sp" />
+    <ListView
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="24dp"
+        android:background="@android:color/white"
+        android:layout_below="@+id/tvApp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/lvHighScore"></ListView>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvApp"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb3HighScore"
+            android:textSize="24dp"
+            android:text="3x3"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb4HighScore"
+            android:textSize="24dp"
+            android:layout_marginTop="12dp"
+            android:text="4x4"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb5HighScore"
+            android:textSize="24dp"
+            android:layout_marginTop="12dp"
+            android:text="5x5"/>
+        </RadioGroup>
+
+
+</RelativeLayout>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:orientation="vertical" android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_marginTop="12dp"-->
+        <!--android:weightSum="10">-->
+        <!--<TextView-->
+            <!--android:layout_width="10dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="STT"-->
+            <!--android:layout_weight="1"-->
+            <!--android:textSize="25sp"-->
+            <!--android:gravity="center"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Name"-->
+            <!--android:paddingLeft="12dp"-->
+            <!--android:layout_weight="3"-->
+            <!--android:textSize="25sp"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Move"-->
+            <!--android:layout_weight="3"-->
+            <!--android:textSize="25sp"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Time"-->
+            <!--android:layout_weight="3"-->
+            <!--android:textSize="25sp"/>-->
+        <!--</LinearLayout>-->
+    <!--<ListView-->
+        <!--android:id="@+id/lvHighScore"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:layout_height="match_parent"></ListView>-->
+<!--</LinearLayout>-->

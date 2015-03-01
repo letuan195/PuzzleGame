@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_oli">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tvAppGame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="58dp"
+                android:layout_marginTop="50dp"
+                android:background="@android:color/holo_purple"
+                android:rotation="-10"
+                android:text="@string/app_name"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/tvSound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/tvAppGame"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="88dp"
+                android:text="Sound "
+                android:textSize="30dp" />
+            <com.zcw.togglebutton.ToggleButton
+                xmlns:toggle="http://schemas.android.com/apk/res-auto"
+                android:layout_width="80dp"
+                toggle:onColor="#f00"
+                toggle:offColor="#ddd"
+                toggle:spotColor="#00f"
+                toggle:offBorderColor="#000"
+                toggle:borderWidth="1dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:checked="true"
+                android:layout_below="@+id/tvSound"
+                android:layout_marginRight="40dp"
+                android:id="@+id/toggleButton">
+            </com.zcw.togglebutton.ToggleButton>
+
+            <TextView
+                android:id="@+id/tvType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/toggleButton"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="78dp"
+                android:text="type "
+                android:textSize="30dp" />
+
+            <RadioGroup
+                android:id="@+id/rgSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvType"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="3x3" />
+
+                <RadioButton
+                    android:id="@+id/rb4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:text="4x4" />
+
+                <RadioButton
+                    android:id="@+id/rb5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:text="5x5" />
+            </RadioGroup>
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/toggleButton"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="80dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbPic3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Number" />
+
+                <RadioButton
+                    android:id="@+id/rbPic4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:text="Image" />
+
+                <RadioButton
+                    android:id="@+id/rbPic5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="12dp"
+                    android:text="Gallery" />
+            </RadioGroup>
+
+        </RelativeLayout>
+        </ScrollView>
+
+</RelativeLayout>

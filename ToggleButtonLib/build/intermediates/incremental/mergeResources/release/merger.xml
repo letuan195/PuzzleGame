@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="21.0.3"><source path="C:\Users\tuanlv.k57\Documents\Android Studio\PuzzleGame\ToggleButtonLib\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\res"/></dataSet><dataSet config="main"><source path="C:\Users\tuanlv.k57\Documents\Android Studio\PuzzleGame\ToggleButtonLib\res"><file path="C:\Users\tuanlv.k57\Documents\Android Studio\PuzzleGame\ToggleButtonLib\res\values\toggle_button_attrs.xml" qualifiers=""><declare-styleable name="ToggleButton">
+    	<attr format="dimension" name="borderWidth">
+    	</attr>
+    	<attr format="reference|color" name="offBorderColor">
+    	</attr>
+    	<attr format="reference|color" name="offColor">
+    	</attr>
+    	<attr format="reference|color" name="onColor">
+    	</attr>
+    	<attr format="reference|color" name="spotColor">
+    	</attr>
+    </declare-styleable></file></source><source path="C:\Users\tuanlv.k57\Documents\Android Studio\PuzzleGame\ToggleButtonLib\build\generated\res\rs\release"/><source path="C:\Users\tuanlv.k57\Documents\Android Studio\PuzzleGame\ToggleButtonLib\build\generated\res\generated\release"/></dataSet><dataSet config="release"><source path="C:\Users\tuanlv.k57\Documents\Android Studio\PuzzleGame\ToggleButtonLib\src\release\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="ToggleButton"><attr format="dimension" name="borderWidth"/><attr format="reference|color" name="offBorderColor"/><attr format="reference|color" name="offColor"/><attr format="reference|color" name="onColor"/><attr format="reference|color" name="spotColor"/></declare-styleable></configuration></mergedItems></merger>
